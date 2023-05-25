@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto";
+    list-style-type: none;
+    color: black;
+}
+
+/* DEBUT NAV */
+
+nav {
+    background-color: white;
+    padding: 2vh 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    padding: 0 2vw;
+}
+
+nav ul :not(:first-child) {
+        border-left: 1px solid black;
+}
+
+/* FIN NAV */
+
+/* DEBUT SECTIONS  */
+/* DEBUT SECTION 1 */
+
+#section1 {
+    height: 60vh;
+
+    background: rgba(180, 178, 178, 0.179) url(assets/images/new-world-amazon-jeu.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 div {
+    text-align: center;
+}
+
+#section1 img { 
+    height: 20vh;
+    width: auto;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 8%;
+}
+
+/* FIN SECTION 1 */
+/* DEBUT SECTION 2 */
+
+#section2 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 3%;
+}
+
+#section2 p {
+    margin: 0 15%;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 1vh 2vw;
+    margin: 1vw;
+    display: inline-block;
+}
+
+/* FIN SECTION 2 */
+/* DEBUT SECTION 3 */
