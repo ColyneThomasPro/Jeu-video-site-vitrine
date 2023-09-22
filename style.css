@@ -34,6 +34,7 @@ nav ul li {
 
 li a:hover {
     color: orange;
+    transition: all 0.2s ease-in-out;
 }
 
 nav ul :not(:first-child) {
@@ -103,13 +104,14 @@ h2 {
 
 .btn:hover {
     background-color: rgb(46, 46, 46);
+    transition: all 0.3s ease-in-out;
 }
 
 /* FIN SECTION 2 */
 /* DEBUT SECTION 3 */
 
 #section3 {
-    padding: 10vh 0vw 2vh 0vw;
+    padding: 8vh 0vw 2vh 0vw;
 }
 
 #section3 h2 {
@@ -124,6 +126,7 @@ h2 {
 
 article:hover {
     transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 .container:hover > article:not(:hover) img{
