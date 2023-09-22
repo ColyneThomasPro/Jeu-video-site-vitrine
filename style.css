@@ -7,6 +7,9 @@
     color: black;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
 
 h1, h2, h3 {
     text-transform: uppercase;
