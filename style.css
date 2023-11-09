@@ -1,8 +1,18 @@
+@font-face {
+    font-family: "OutfitLight";
+    src: url(./assets/fonts/Outfit/static/Outfit-Light.ttf);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/Outfit/static/Outfit-SemiBold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: "OutfitLight";
     list-style-type: none;
     color: black;
 }
@@ -13,6 +23,7 @@
 
 h1, h2, h3 {
     text-transform: uppercase;
+    font-family: "Outfit";
 }
 
 /* DEBUT NAV */
@@ -48,7 +59,7 @@ nav ul :not(:first-child) {
 
 #section1 {
     height: 60vh;
-
+    width: 100%;
     background: rgba(59, 59, 59, 0.5) url(./assets/images/horizon-zero-dawn-jeu.jpg);
     background-blend-mode: darken;
     background-size: cover;
@@ -153,11 +164,13 @@ article img {
 .content {
     background-color: rgb(46, 46, 46);
     padding-bottom: 2vh;
+    overflow: hidden;
+    height: 25vh;
 }
 
 .content > * {
     color: white;
-
+    overflow: hidden;
     padding: 2vh;
 }
 
@@ -194,3 +207,27 @@ footer ul :not(:first-child) {
 }
 
 /* FIN FOOTER  */
+
+@media only screen and (max-width: 1590px) {
+    .h3-container {
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 971px) {
+    #section3 {
+        padding: 8vh 0vw 2vh 0vw;
+    }
+    
+    .container {
+        margin: 3vh auto; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    article {
+        width: 75%; 
+        margin-bottom: 2vh; 
+    }
+}
